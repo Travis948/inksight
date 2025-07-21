@@ -81,7 +81,6 @@ struct BoxBreathing: View {
     }
     
 
-    // Breathing Logic
     func startBreathing() {
         runPhase()
     }
@@ -109,7 +108,6 @@ struct BoxBreathing: View {
         }
     }
 
-    // Timer Countdown Logic
     func startCountdown() {
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
             if timeRemaining > 0 {

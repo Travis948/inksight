@@ -56,7 +56,6 @@ struct TodayView: View {
             Spacer()
                 .frame(height: 50)
             
-            // First question
             VStack(spacing: 10) {
                 Text("How are you feeling today?")
                     .font(.headline)
@@ -113,7 +112,6 @@ struct TodayView: View {
             }
             .padding(.bottom, 40)
             
-            // Second question
             VStack(spacing: 10) {
                 Text("Do you like doing the activities that you used to like?")
                     .font(.headline)
@@ -171,7 +169,6 @@ struct TodayView: View {
                 }
             }
             
-            // Wellbeing message after both questions
             if !wellbeingMessage.isEmpty {
                 Text(wellbeingMessage)
                     .font(.body)

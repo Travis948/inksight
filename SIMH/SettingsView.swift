@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import UserNotifications // Import here to avoid issues with UNUserNotificationCenter
+import UserNotifications
 
 struct SettingsView: View {
  
